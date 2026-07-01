@@ -62,7 +62,7 @@ a:hover
 
 :target
 {
-    background-color:limegreen;
+    /*background-color:limegreen;*/
 
 }
 :target + div
@@ -77,12 +77,20 @@ div
     padding:16px;
 }
 
-.cite
-{
-   
-   border: solid 8px;
-   margin: 50px 200px 300px;
-   padding:30px;
-   /*margin: all-sides;*/
-   /*margin: top-bottom left-right;*/
+.cite {
+    /*border: solid 8px;*/
+    border-left: solid 5px blue;
+    /*margin-left:....*/
+    /*margin: top:....*/
+    margin: 50px 200px 300px;
+    /*margin: all-sides;*/
+    /*margin: top-bottom left-right;*/
+    /*margin: top- left-right bottom;*/
+    /*margin: top right bottom;*/
+    padding: 30px;
+    /*margin: all-sides;*/
+    /*padding: top-bottom left-right;*/
+    /*padding: top- left-right bottom;*/
+    /*padding: top right bottom left;*/
 }
+/* --------------------------------------------- */
