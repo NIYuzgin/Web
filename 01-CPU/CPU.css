@@ -4,7 +4,7 @@ body
     font-family:'Roboto Condensed';
     font-size:20px;
     padding:1% 5%;
-    background-image:url('img/pcb.jpg');
+   /*background-image:url('img/pcb.jpg');*/
     background-attachment:fixed;
     background-repeat:no-repeat;
     background-size:cover;
@@ -75,4 +75,14 @@ a:hover
 div
 {
     padding:16px;
+}
+
+.cite
+{
+   
+   border: solid 8px;
+   margin: 50px 200px 300px;
+   padding:30px;
+   /*margin: all-sides;*/
+   /*margin: top-bottom left-right;*/
 }
