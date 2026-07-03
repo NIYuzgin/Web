@@ -53,11 +53,16 @@ a:visited
 {
     color:darkgreen;
 }
+/*#table-of-contents a:hover*/
 a:hover
 {
     font-weight:800;
     background-color:black;
     color:white;
+}
+#home a:hover
+{
+    background:none;
 }
 
 :target
@@ -81,16 +86,16 @@ div
     /*border: solid 8px;*/
     border-left: solid 5px blue;
     /*margin-left:....*/
-    /*margin: top:....*/
-    margin: 50px 200px 300px;
+    /*padding: top:....*/
+    margin: 50px 100px 200px 300px; /*Внешний отступ*/
     /*margin: all-sides;*/
     /*margin: top-bottom left-right;*/
-    /*margin: top- left-right bottom;*/
-    /*margin: top right bottom;*/
-    padding: 30px;
+    /*margin: top left-right bottom;*/
+    /*margin: top right bottom left;*/
+    padding: 30px; /*Внутренний отступ*/
     /*margin: all-sides;*/
     /*padding: top-bottom left-right;*/
-    /*padding: top- left-right bottom;*/
+    /*padding: top left-right bottom;*/
     /*padding: top right bottom left;*/
 }
 /* --------------------------------------------- */
