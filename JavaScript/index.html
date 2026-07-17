@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Introductionto JavaScript</title>
+    <style>
+        code
+        {
+            color:blue;
+            font-family='Courer New';
+            font-weight:900;
+
+
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Introduction to JavaScript</h1>
+    <p>
+
+        <strong> JavaScript</strong> &#8213; интерпретируемый язык программирования общего назначения с динамической типизацией данных
+
+    </p>
+    <p>
+
+
+
+    </p>
+    <h2>Переменные и константы</h2>
+    <dl>
+        <dt><code style="color:blue;">var</code></dt><dd>Объявляет глобальную переменную, несмотря на область видимости, в которой она объявлена;</dd>
+        <dt><code style="color:blue;" let></code></dt><dd>Объявляет глобальную переменную, несмотря на область видимости, в которой она объявлена;</dd>
+        <dt><code style="color:blue;" const></code></dt><dd>Объявляет глобальную переменную, несмотря на область видимости, в которой она объявлена;</dd>
+    </dl>
+    
+    <h2>Типы данных:</h2>
+    <ol>
+        <li>
+            Примитивные типы:
+            <ul>
+                <li><code>Boolean</code> &#8213; принимает одно из двух значений <code>True</code>либо <code>False</code>. Значения: 0, null, '', "", `` неявно преобразуются в <code>False</code>. <code>True</code> &#8213; это любое значение, отличное от нуля или пустой строки.</li>
+            </ul>
+
+
+
+        </li>
+        <li>
+            Объекты
+            <ul>
+                <li><code>Object</code> &#8213;</li>
+
+
+            </ul>
+
+
+
+        </li>
+
+
+    </ol>
+
+
+    <script>
+
+        //alert("Hello");
+        //var name = prompt("Введите Ваше Имя: ");
+        //alert(name);
+        // alert('Привет ' + prompt("Введите Ваше имя: ") + ' we are glad to see you');
+        //alert(`Привет ${prompt("Введите Ваше имя: ")}.\n Это интерполяция строк.`);
+        console.log("Отладочная информация");
+        document.write("<h2>Вывод на экран</h2>");
+        {
+            const var1 = "Global variable";
+            //var1 = "Глобальная переменная";
+        }
+        
+        //document.write(var1);
+        document.writeln(5);
+        document.writeln(typeof (5));
+        let variable = Number("5");
+        document.write(typeof(variable));
+        document.write("<hr>");
+        let a = '5' ** 3;
+        document.write(a);
+
+
+    </script>
+</body>
+</html>
