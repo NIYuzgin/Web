@@ -1,7 +1,7 @@
 ﻿    input, div, button
 {
     font-size: 24px;
-    width:30%;
+    width:50%;
 }
 
     input
@@ -17,12 +17,11 @@
 
 .result 
 {
-    width: 50%;
+    max-width: 50%;
 }
 .pair
 {
     text-align:right;
-
 }
 label
 {
@@ -33,5 +32,4 @@ label
     overflow:scroll;
     width:100%;
     height:400px;
-
 }
